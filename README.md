@@ -1,9 +1,9 @@
 <h1 align="center">
-  Autodesk Fabrication API XML Docs
+  Autodesk FabricationAPI XML Docs
 </h1>
 
 ## Introduction
-We recently started working with Autodesk's Fabrication API for one of our tools. For some reason, Autodesk didn't supply an XML documentation file with their code as they did with the Revit API and instead supplied a [.CHM help file](https://en.wikipedia.org/wiki/Microsoft_Compiled_HTML_Help) (<i>a help file format introduced in Windows 95</i>). 
+We recently started working with Autodesk's FabricationAPI for one of our tools. For some reason, Autodesk didn't supply an XML documentation file with their code as they did with the Revit API and instead supplied a [.CHM help file](https://en.wikipedia.org/wiki/Microsoft_Compiled_HTML_Help) (<i>a help file format introduced in Windows 95</i>). 
 
 We needed an XML file of the documentation to see what we were doing while using the API within Visual Studio, so we worked to do something <b>Autodesk couldn't do</b> and built one manually.
 
