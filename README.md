@@ -15,6 +15,9 @@ Using [SandCastle Help File Builder](https://github.com/EWSoftware/SHFB), we wer
 
 We then created a simple C# program to cross-reference the members in the XML file with the .html files generated from the `hh` program, filling all of the member information found from the .html files.
 
+## How To Use
+All you need to do is place the correct XML file from this repo into the same directory as the FabricationAPI DLL you reference from Visual Studio. The IntelliSense will find the XML file when it finds the reference, and use that documentation.
+
 ## Closing
 As of right now, the XML files contain all of the necessary member information including types, parameters and methods. Much of the documentation is very straight forward (literally what Autodesk wrote in their help file), but there is definitely some useful information that can be found from these XML documentation files. 
 
