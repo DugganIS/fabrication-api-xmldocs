@@ -9,7 +9,7 @@ We needed an XML file of the documentation to see what we were doing while using
 
 
 ## Process
-The .chm help file contained all of the information we needed. So using Microsoft's `hh` program, we were able to extract all of the .html files from the .chm file.
+The .chm help file contained all of the information we needed. So by using Microsoft's `hh` program, we were able to extract all of the .html files from the .chm file.
 
 Using [SandCastle Help File Builder](https://github.com/EWSoftware/SHFB), we were able to create a 'skeleton' XML file that contains all of the members present in the Fabrication API DLL file.
 
