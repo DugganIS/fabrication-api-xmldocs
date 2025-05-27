@@ -5507,11 +5507,10 @@ Enumerated values of the Domain Type of a Connector in the Fabrication Database.
     </member>
     <member name="T:Autodesk.Fabrication.DB.ConnectorInfo">
       <summary>
-A Rectangular Connector in the Fabrication Database. These could be from multiple domains, eg. rectangular ductwork or electrical containment.
+A Connector in the Fabrication Database.
 </summary>
       <remarks>
-The RectangularConnectorInfo contains properties and methods specific to rectangular connections stored in the Fabrication Database and applied to items.
-Modifying connectors requires that the user has "Edit Service Database" permissions set.
+The ConnectorInfo class represents a single entry of Connector data that is stored in the Fabrication Database. The Fabrication API Item class stores Connectors that are related to that Item and hold references to the ConnectorInfo stored in the Fabrication Database. Modifying connectors requires that the user has "Edit Database" permissions set. Call Autodesk.Fabrication.DB.Database.SaveConnectors to save any changes.
 </remarks>
     </member>
     <member name="P:Autodesk.Fabrication.DB.ConnectorInfo.BreakPointTable">
