@@ -882,11 +882,10 @@ Enumerated values that determine a Fabrication Item's Insulation Status.
     </member>
     <member name="T:Autodesk.Fabrication.Item">
       <summary>
-A Service Button Item in a Service Button. 
+An Item that is in the current Fabrication Job. 
 </summary>
       <remarks>
-The ServiceButtonItem class represents a single entry of ServiceButtonItem data that is stored in a single ServiceButton. 
-A ServiceButtonItem stores links to Fabrication Items and the condition that they can be used at dependent on their size.
+The Item class represents a single instance of a Fabrication Item that is in the current Fabrication Job.
 </remarks>
     </member>
     <member name="M:Autodesk.Fabrication.Item.AddCustomData(Autodesk.Fabrication.DB.CustomData)">
